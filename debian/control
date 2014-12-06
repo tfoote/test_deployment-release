@@ -1,0 +1,12 @@
+Source: ros-indigo-test-deployment-two
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-roscpp, ros-indigo-test-deployment-one
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-test-deployment-two
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-roscpp, ros-indigo-test-deployment-one
+Description: The test_deployment_two package
